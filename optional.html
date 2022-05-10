@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <style>
+      table {
+        border: 3px solid tomato;
+        border-collapse: separate;
+        border-spacing: 16px;
+        margin: 10rem;
+      }
+      td {
+        border: 1px solid black;
+      }
+      thead {
+        background-color: springgreen;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <section class="top-header">
+        <div class="heading1">
+          <h1>REGISTER FOR CONFERENCE</h1>
+        </div>
+        <div class="nav-container">
+          <h2>August 24-26th - Chicago, IL</h2>
+          <!-- <div class="empty">.</div> -->
+          <nav>
+            <ul>
+              <li><a href="./index.html">HOME</a></li>
+              <li><a href="./stylish.html">SPEAKERS</a></li>
+              <li><a href="./rowspan.html">SCHEDULE</a></li>
+              <li><a href="./colspan.html">VENUE</a></li>
+              <li class="current">REGISTER</li>
+            </ul>
+          </nav>
+        </div>
+      </section>
+      <section class="bottom-section">
+        <h2>Schedule</h2>
+        <p>
+          The conference conference has a schedule. There are workshops and Nic
+          Cage gives speeches
+        </p>
+      </section>
+    </header>
+
+    <!-- 
+        <header></header>
+    <main></main>
+    <footer></footer>
+    <header></header>
+    <header></header><header></header>
+    
+    -->
+    <table>
+      <thead>
+        <tr>
+          <th scope="col">Items</th>
+          <th scope="col">Expenditure</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Donuts</th>
+          <td>$3000</td>
+        </tr>
+
+        <tr>
+          <th scope="row">Stationary</th>
+          <td>$5000</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th scope="row">Totals</th>
+          <td>$8000</td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>

@@ -12,6 +12,7 @@ body {
   font-size: 1.6rem;
   max-width: 95%;
   /* margin: 2rem 2rem; */
+  font-family: sans-serif;
 }
 .top-header {
   background-color: #293f50;
@@ -45,7 +46,7 @@ body {
 .nav-container h2 {
   color: #6c6e72;
   position: relative;
-  left: 40%;
+  left: 34%;
   width: fit-content;
 }
 
@@ -71,6 +72,10 @@ body {
 
 .nav-container ul li {
   /* padding: %; */
+}
+
+.current {
+  color: rgb(197, 92, 50);
 }
 
 .bottom-section {

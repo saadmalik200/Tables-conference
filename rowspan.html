@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Schedule</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+      .saturn {
+        background-color: lightpink;
+      }
+      .media-markt {
+        background-color: skyblue;
+      }
+      .otto {
+        background-color: mediumaquamarine;
+      }
+      .titles {
+        background-color: lightgray;
+      }
+
+      table {
+        padding: 10rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <section class="top-header">
+        <div class="heading1">
+          <h1>SCHEDULE FOR CONFERENCE</h1>
+        </div>
+        <div class="nav-container">
+          <h2>August 24-26th - Chicago, IL</h2>
+          <!-- <div class="empty">.</div> -->
+          <nav>
+            <ul>
+              <li><a href="./index.html">HOME</a></li>
+              <li><a href="./stylish.html">SPEAKERS</a></li>
+              <li class="current">SCHEDULE</li>
+              <li><a href="./colspan.html">VENUE</a></li>
+              <li><a href="./optional.html">REGISTER</a></li>
+            </ul>
+          </nav>
+        </div>
+      </section>
+      <section class="bottom-section">
+        <h2>Schedule</h2>
+        <p>
+          The conference conference has a schedule. There are workshops and Nic
+          Cage gives speeches
+        </p>
+      </section>
+    </header>
+    <table>
+  
+
+      <colgroup>
+        <col span="2" class="titles" />
+        <col span="2" class="media-markt" />
+        <col span="2" class="saturn" />
+        <col span="2" class="otto" />
+      </colgroup>
+
+      <tr>
+        <th rowspan="2">Categories</th>
+        <th rowspan="2">Products</th>
+        <th colspan="2">Media-Markt</th>
+        <th colspan="2">Saturn</th>
+        <th colspan="2">Otto</th>
+      </tr>
+      <tr>
+        <th scope="col">Produced</th>
+        <th scope="col">Sold</th>
+        <th scope="col">Produced</th>
+        <th scope="col">Sold</th>
+        <th scope="col">Produced</th>
+        <th scope="col">Sold</th>
+      </tr>
+
+      <!-- <tr>
+        <th colspan="2" rowspan="12">Shop</th> -->
+        <th rowspan="3" scope="rowgroup">Computers</th>
+        <th scope="row">Laptops</th>
+        <td>50000</td>
+        <td>4000</td>
+        <td>60000</td>
+        <td>8000</td>
+        <td>3000</td>
+        <td>2000</td>
+      </tr>
+      <tr>
+        <th scope="row">Desktops</th>
+        <td>50000</td>
+        <td>4000</td>
+        <td>60000</td>
+        <td>8000</td>
+        <td>90000</td>
+        <td>3000</td>
+      </tr>
+      <tr>
+        <th scope="row">Monitors</th>
+        <td>50000</td>
+        <td>4000</td>
+        <td>60000</td>
+        <td>8000</td>
+        <td>90000</td>
+        <td>3000</td>
+      </tr>
+      <tr>
+        <th rowspan="3" scope="rowgroup">Audio</th>
+        <th scope="row">Headphones</th>
+        <td>50000</td>
+        <td>4000</td>
+        <td>60000</td>
+        <td>8000</td>
+        <td>3000</td>
+        <td>2000</td>
+      </tr>
+      <tr>
+        <th scope="row">Microphone</th>
+        <td>50000</td>
+        <td>4000</td>
+        <td>60000</td>
+        <td>8000</td>
+        <td>90000</td>
+        <td>3000</td>
+      </tr>
+      <tr>
+        <th scope="row">Stereos</th>
+        <td>50000</td>
+        <td>4000</td>
+        <td>60000</td>
+        <td>8000</td>
+        <td>90000</td>
+        <td>3000</td>
+      </tr>
+      <tr>
+        <th rowspan="3" scope="rowgroup">Kitchen</th>
+        <th scope="row">Mixer</th>
+        <td>50000</td>
+        <td>4000</td>
+        <td>60000</td>
+        <td>8000</td>
+        <td>3000</td>
+        <td>2000</td>
+      </tr>
+      <tr>
+        <th scope="row">Coffee Machine</th>
+        <td>50000</td>
+        <td>4000</td>
+        <td>60000</td>
+        <td>8000</td>
+        <td>90000</td>
+        <td>3000</td>
+      </tr>
+      <tr>
+        <th scope="row">Dishwasher</th>
+        <td>50000</td>
+        <td>4000</td>
+        <td>60000</td>
+        <td>8000</td>
+        <td>90000</td>
+        <td>3000</td>
+      </tr>
+    </table>
+  </body>
+</html>

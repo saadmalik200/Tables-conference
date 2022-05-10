@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Venue</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <style>
+      table {
+        border: 3px solid tomato;
+        border-collapse: separate;
+        border-spacing: 16px;
+        /* padding: 10rem; */
+        margin: 10rem;
+      }
+      td {
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <section class="top-header">
+        <div class="heading1">
+          <h1>VENUE OF CONFERENCE</h1>
+        </div>
+        <div class="nav-container">
+          <h2>August 24-26th - Chicago, IL</h2>
+          <!-- <div class="empty">.</div> -->
+          <nav>
+            <ul>
+              <li><a href="./index.html">HOME</a></li>
+              <li><a href="./stylish.html">SPEAKERS</a></li>
+              <li><a href="./rowspan.html">SCHEDULE</a></li>
+              <li class="current">VENUE</li>
+              <li><a href="./optional.html">REGISTER</a></li>
+            </ul>
+          </nav>
+        </div>
+      </section>
+      <section class="bottom-section">
+        <h2>Schedule</h2>
+        <p>
+          The conference conference has a schedule. There are workshops and Nic
+          Cage gives speeches
+        </p>
+      </section>
+    </header>
+    <!-- <h1>Colspan</h1> -->
+    <table>
+      <caption>
+        Employees
+      </caption>
+      <thead>
+        <tr>
+          <th scope="col">Person</th>
+          <th scope="col">Age</th>
+          <th scope="col">Telephone</th>
+          <th scope="col">Address 1</th>
+          <th scope="col">Address 2</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="name">Bob</td>
+          <td class="age">34</td>
+          <td>12345678</td>
+          <td>123 Street</td>
+          <td>456 Street</td>
+        </tr>
+        <tr>
+          <td class="name">Bill</td>
+          <td class="age">34</td>
+          <td>12345678</td>
+          <td colspan="2">123 Street</td>
+          <!-- <td>456 Street</td> -->
+        </tr>
+        <tr>
+          <td class="name">Billy Bob</td>
+          <td class="age">34</td>
+          <td>12345678</td>
+          <td>123 Street</td>
+          <td>456 Street</td>
+        </tr>
+        <tr>
+          <td class="name">Bob Junior</td>
+          <td class="age">34</td>
+          <td>12345678</td>
+          <td colspan="2">123 Street</td>
+          <!-- <td>456 Street</td> -->
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
