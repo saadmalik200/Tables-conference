@@ -10,9 +10,14 @@
 
 body {
   font-size: 1.6rem;
-  max-width: 95%;
+  max-width: 100%;
   /* margin: 2rem 2rem; */
   font-family: sans-serif;
+}
+
+header {
+  width: 100%;
+  /* margin-left: 2.7%; */
 }
 .top-header {
   background-color: #293f50;
@@ -103,10 +108,11 @@ body {
 
 main {
   padding: 10%;
+  margin-left: 3%;
 }
 
 table {
-  width: 1400px;
+  width: 90%px;
 }
 
 td {
