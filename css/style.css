@@ -53,6 +53,7 @@ header {
   position: relative;
   left: 34%;
   width: fit-content;
+  /* font-size: 4rem; */
 }
 
 .nav-container nav {
@@ -75,10 +76,6 @@ header {
   text-decoration: overline;
 }
 
-.nav-container ul li {
-  /* padding: %; */
-}
-
 .current {
   color: rgb(197, 92, 50);
 }
@@ -98,12 +95,13 @@ header {
 
 .bottom-section h2 {
   color: #6c6e72;
+  font-size: 4rem;
 }
 
 .bottom-section p {
   color: #6c6e72;
   margin-top: 1%;
-  font-size: 1.6rem;
+  font-size: 2rem;
 }
 
 main {
@@ -112,7 +110,7 @@ main {
 }
 
 table {
-  width: 90%px;
+  width: 90%;
 }
 
 td {
@@ -175,4 +173,74 @@ th {
   text-align: left;
   color: #6c6e72;
   font-size: 2.5rem;
+}
+
+main {
+  display: flex;
+  /* gap: 20rem; */
+  /* justify-content: space-around; */
+
+  margin: 0;
+  color: #6c6e72;
+}
+main section {
+  width: 50%;
+  /* margin: 0; */
+}
+main section h2 {
+  margin-bottom: 2rem;
+  font-size: 3rem;
+}
+
+main section:nth-child(1) p {
+  font-size: 2.5rem;
+  width: 70%;
+  /* color: #6c6e72; */
+  line-height: 2.5rem;
+  margin: 2rem 0;
+}
+
+main section ul {
+  font-size: 2rem;
+  margin-left: 4rem;
+  line-height: 4rem;
+  /* font-weight: bold; */
+}
+
+input,
+label,
+textarea,
+button {
+  display: block;
+  width: 60%;
+}
+
+label {
+  margin: 1.5rem 0;
+  /* width: 50rem; */
+  text-align: left;
+  color: #268050;
+  font-weight: bold;
+}
+
+input {
+  padding: 1rem 0.8rem;
+  font-size: 2rem;
+}
+
+select {
+  padding: 1rem 1.5rem;
+}
+
+section:last-child button {
+  margin-top: 1.5rem;
+  background-color: #268050;
+  padding: 1.5rem;
+  width: 20%;
+  border-radius: 0.5rem;
+  color: #b7bcc8;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2rem;
+  overflow: hidden;
 }
